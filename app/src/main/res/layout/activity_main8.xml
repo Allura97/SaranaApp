@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:rowCount="1"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:elevation="5dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#CFD7D9"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="0dp"
+                    android:id="@+id/tombollaporantka">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Laporan TKA"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:elevation="5dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#CFD7D9"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:id="@+id/tombollaporanstabling">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Laporan Stabling"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:rowCount="1"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:elevation="5dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#CFD7D9"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:id="@+id/tombollaporanperawatan">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Laporan Perawatan"
+                        android:textColor="@color/black"
+                        android:gravity="center"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:elevation="5dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#CFD7D9"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="tombol2"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/tombol2"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </GridLayout>
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:rowCount="1"
+            android:columnCount="2"
+            android:alignmentMode="alignMargins"
+            android:columnOrderPreserved="false">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:elevation="5dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#CFD7D9"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="0dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="tombol3"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/tombol3"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:elevation="5dp"
+                app:cardCornerRadius="20dp"
+                android:backgroundTint="#CFD7D9"
+                app:cardUseCompatPadding="true">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:orientation="vertical"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="tombol4"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:id="@+id/tombol4"/>
+
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </GridLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+</RelativeLayout>

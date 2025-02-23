@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainActivity7">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/silakanisinomorsarana"
+        android:layout_marginTop="50dp"
+        android:text="Silakan Isi Nomor Sarana"
+        android:textColor="#515151"
+        android:fontFamily="@font/poppins"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputnomorsarana"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/silakanisinomorsarana"
+        android:hint="K2 07846 / CC 2018332"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/rounded"
+        android:padding="15dp"
+        android:backgroundTint="#F2F2F2"
+        android:textColorHint="#515151"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputnomorsarana"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/silakanisiposisisarana"
+        android:layout_marginTop="10dp"
+        android:text="Silakan Isi Posisi Sarana"
+        android:textColor="#515151"
+        android:fontFamily="@font/poppins"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputposisisarana"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/silakanisiposisisarana"
+        android:hint="KA 2 / Stabling Depo JAKK"
+        android:fontFamily="@font/poppins"
+        android:background="@drawable/rounded"
+        android:padding="15dp"
+        android:backgroundTint="#F2F2F2"
+        android:textColorHint="#515151"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputposisisarana"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#8EDDFF"
+        android:text="Update Posisi Sarana"
+        android:id="@+id/updateposisisarana"
+        android:textColor="#515151"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updateposisisarana"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/updatednomorsarana"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:textColor="#515151"
+        android:fontFamily="@font/poppins"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

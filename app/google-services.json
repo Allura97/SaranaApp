@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "181217670312",
+    "project_id": "project-sandi-d5163",
+    "storage_bucket": "project-sandi-d5163.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181217670312:android:fb0ed5a37448ffad907e9d",
+        "android_client_info": {
+          "package_name": "com.example.binding"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXBCVvZrlbJYvPeL1yYibLGzAd_SU-ko0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
